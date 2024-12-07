@@ -1,0 +1,196 @@
+html, body {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #02366F;
+}
+
+.logo{
+    width: 300px;
+    position: relative;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #02366F;
+    color: white;
+}
+
+.button-contacto{
+    color: #D41515;
+    background-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('Fotos/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.hero-text {
+    font-size: 2rem;
+    margin: 0;
+    opacity: 1;
+    color: white;
+}
+
+.services {
+    width: 50%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #02366F;
+    color: #fff;
+}
+
+.services tr {
+    height: 80px;
+    border-bottom: 3px solid #fff; 
+}
+.services tr:first-child {
+    border-top: 3px solid #fff;
+}
+
+.icon {
+    width: 20%;
+    text-align: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.divider {
+    width: 5%;
+    border-left: 3px solid #fff;
+}
+
+.text {
+    width: 75%; 
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #02366F;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px; 
+}
+
+.cta-container img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    border-radius: 52px;
+}
+
+.cta-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #D41515; 
+    text-align: center;
+}
+
+.cta-text h2 {
+    font-size: 1.8rem; 
+    margin-bottom: 20px;
+}
+
+.cta button {
+    background-color: #D41515;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #02366F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    padding-left: 33%;
+}
+
+.flogo{
+    padding-top: 1%;
+    width: 300px;
+}
+
+.footer-map {
+    margin-bottom: 10px;
+}
+
+.info{
+    align-items: center;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
