@@ -1,0 +1,442 @@
+html, body {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #02366F;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 300px;
+    position: relative;
+    padding-left: 10%;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #02366F;
+    color: white;
+}
+
+.button-contacto{
+    color: #D41515;
+    background-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    margin-top: 0; 
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.container1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.firstcontainer {
+    font-family: Arial, sans-serif;
+    font-size: 5rem;
+    color:white;
+    padding-top: 7%;
+}
+
+.secondcontainer{
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 50%;
+    padding-bottom: 8%;
+}
+
+.thirdcontainer{
+    margin-bottom: 2rem;
+}
+
+.flecha{
+    padding-top: 2%;
+    background-color: #D41515;
+    color: white;
+    border: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 2rem;
+    border-radius: 12px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.flechaimg{
+    width: 100px;
+    height: auto;
+    position: center;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+}
+
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #02366F;
+}
+
+.srv{
+    padding-left: 10%;
+    position: relative;
+    text-align: center;
+}
+.srv button {
+    position: center;
+    background-color: #D41515;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.srv button a {
+    text-decoration: none;
+    color: white;
+}
+
+.texto {
+    margin: 5rem;
+    flex-direction: column;
+    text-align: rigth;
+}
+
+.titulo{
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.info{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: Roboto Flex;
+    padding-bottom: 50px;
+}
+
+.pastillas {
+    position: relative;
+    padding-right: 5rem;
+    padding-top:5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+}
+
+.imagen{
+    height: 700px;
+    width: 600px;
+}
+
+.container3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    margin-top: 0; 
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.container3 video {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1;
+}
+
+.letras{
+    z-index: 0;
+    font-size: 7rem;
+    color: white;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.boton{
+    background-color: #D41515;
+    color: white;
+    border: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    margin:10px;
+}
+
+.container4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('Fotos/pexels.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.numeros{
+    font-size: 3rem;
+    color:white;
+    align-items: center;
+    padding-bottom: 0px;
+    margin: 3rem;
+    margin-top: 15rem;
+}
+
+.infonumeros{
+    color:white;
+    align-items: center;
+    padding-bottom: 0px;
+    display: flex;
+    margin-bottom: 15rem;
+    flex-direction: row;
+}
+
+.acomodo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.infonumeros1{
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.infonumeros2{
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.container5{
+    background-color: #02366F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.clientes{
+    align-items: center;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3rem;
+}
+
+.europharma{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2.5rem;
+}
+
+.megabiotic{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3.5rem;
+}
+
+.newmanity{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3.5rem;
+}
+
+.pacalli{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2.5rem; 
+}
+
+.container6{
+    background-color: #02366F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.ligas{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.liga1{
+    display: inline;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+
+.frasquito{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.liga2{
+    display: inline;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a{
+    color: white;
+}
+
+.hojita{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.estandares{
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+footer{
+    background-color: #02366F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    padding-left: 33%;
+}
+
+.flogo{
+    padding-top: 1%;
+    width: 300px;
+}
+
+.footer-map {
+    margin-bottom: 10px;
+}
+
+.info{
+    align-items: center;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.container7{
+    height: 100%;
+    width: 100%;
+    background-color: #02366F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.negocio{
+    margin: 5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.infoneg{
+    color: white;
+    font-size: 2rem;
+}

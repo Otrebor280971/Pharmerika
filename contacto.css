@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #02366F;
+}
+
+.logo{
+    width: 300px;
+    position: relative;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #02366F;
+    color: white;
+}
+
+.button-contacto{
+    color: white;
+    background-color: #D41515;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-contacto {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('Fotos/cto-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-contacto h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-contacto p {
+    font-size: 1.2rem;
+}
+
+.formulario-contacto {
+    padding: 40px 20px;
+    background-color: #02366F;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cc0000;
+}
+
+footer{
+    background-color: #02366F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.flogo{
+    padding-top: 1%;
+    width: 300px;
+}
+
+.footer-map {
+    margin-bottom: 10px;
+}
+
+.info{
+    align-items: center;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
